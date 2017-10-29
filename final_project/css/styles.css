@@ -1,0 +1,114 @@
+body,html {
+   height: 100vh;
+}
+
+header {
+  height: 10em;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-stretch: bold;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+   position: fixed;
+   display: flex;
+   list-style: none;
+   padding: 4em;
+   li {
+      margin-left: .5em;   
+   }
+   a {
+      color: hsla(200,10,60,90);
+      text-decoration: none;
+   }
+}
+
+section {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#our_mission {
+   background: lightblue;
+   border: 1px solid grey;
+}
+
+#for_the_kids {
+   background: lightpink;
+}
+
+#recipe_gallery {
+   background: lavender;
+}
+
+#blog {
+   background: url(http://via.placeholder.com/800x700) center center no-repeat;
+}
+
+.logo {
+  color: green;
+}
+
+.recipe_container{
+  width: 900px;
+  margin: 0 auto;
+  /*overflow: auto;*/
+  display: flex;
+}
+
+.box{
+  height: 175px;
+  width: 30%;
+  border: .5px solid black;
+  margin: 15px;
+}
+
+.one{
+  background-color: red;
+}
+
+.two{
+  background-color: pink;
+}
+
+.three{
+  background-color: orange;
+}
+
+.four{
+  background-color: #eee;
+}
+
+.five{
+  background-color: #eee;
+}
+
+.six{
+  background-color: #eee;
+}
+
+.seven{
+  background-color: #eee;
+}
+
+.eight{
+  background-color: #eee;
+}
+
+.nine{
+  background-color: #eee;
+}
