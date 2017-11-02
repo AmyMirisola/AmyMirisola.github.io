@@ -1,0 +1,210 @@
+body,html {
+   height: 100vh;
+}
+
+header {
+  height: 10em;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-stretch: bold;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+}
+
+p{
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.paragraph{
+  width: 1000px;
+}
+
+.paragraph-overlay {
+  background: rgba(255,255,255,.8);
+  width: 1050px;
+  margin: 0 auto;
+  padding: 2%;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  transition: width 500ms;
+}
+
+.kids-paragraph-overlay {
+  background: rgba(255,255,255,.6);
+  width: 1050px;
+  margin: 0 auto;
+  padding: 2%;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  transition: width 500ms;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: beige;
+  opacity:.5;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 1.1em;
+  li {
+    margin-left: .5em;
+  }
+  a {
+    color: hsla(200,10,60,90);
+    text-decoration: none;
+  }
+}
+
+#our_mission {
+  height: 100vh;
+  background: url(../images/IMG_6291.jpg) center center no-repeat;
+  background-size: cover;
+  height: calc(100vh -60.781px);
+  width: 100%;
+  float: left;
+  border: 1px solid grey;
+}
+
+#for_the_kids {
+  height: 100vh;
+  background: url(../images/pumpkin_baby.jpg) center center no-repeat;
+  background-size: cover;
+  height: calc(100vh -60.781px);
+  width: 100%;
+  float: left;
+}
+
+#market_gallery {
+  height: calc(100vh -60.781px);
+  background-size: cover;
+  background: tan;
+  padding-top: 75px;
+  margin-top: 0px;
+}
+
+#blog {
+  height: 100vh;
+  background: url(../images/spices.jpg) center center no-repeat;
+  background-size: cover;
+  height: calc(100vh -60.781px);
+}
+
+.blog-overlay {
+  background: rgba(255,255,255,.7);
+  width: 35%;
+  margin-top: 125px;
+  margin-left: 30px;
+  /*padding: 4%;*/
+  float: left;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  transition: width 500ms;
+}
+
+.blog-overlay h2{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.blog-overlay p{
+  text-align: center; 
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  color: darkolivegreen;
+  padding: 65px;
+  padding-top: 75px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: tan;
+}
+
+.market_container{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  flex: 3 0 200px;
+  height: 200px;
+  border: .5px solid black;
+  margin: 15px;
+}
+
+.acorn_squash{
+  background: url(../images/acorn_squash.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.apples{
+  background: url(../images/apples.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.brussel_sprouts{
+  background: url(../images/brussel_sprouts.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.butter_nut{
+  background: url(../images/butter_nut.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mix_squash{
+  background: url(../images/mix_squash.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.parsnip{
+  background: url(../images/parsnip.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.pomagranate{
+  background: url(../images/pomagranate.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.romanesco{
+  background: url(../images/romanesco.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.zucchini{
+  background: url(../images/zucchini.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
